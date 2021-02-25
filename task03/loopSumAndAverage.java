@@ -10,7 +10,7 @@ public class loopSumAndAverage {
         double num = sc.nextDouble();
         sum(num);
         average(num);
-
+        sc.close();
     }
     public static void sum(double num){
 
