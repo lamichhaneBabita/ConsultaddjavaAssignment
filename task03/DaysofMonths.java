@@ -12,9 +12,12 @@ public class DaysofMonths {
 
         int[] monthNum = {31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
 
-        for (int i = 1; i <= num; i++) {
-            System.out.println("Month " + i + " has " + monthNum[i - 1] + " many days.");
-        }
+            if(num<1 || num>12) {
+                System.out.println("Invalid Input!");
+            }
+            else {
+                System.out.println("Month " + num + " has " + monthNum[num - 1] + " many days.");
+            }
         sc.close();
     }
 }
