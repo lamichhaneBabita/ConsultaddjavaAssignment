@@ -13,7 +13,7 @@ public class DaysofMonths {
         int[] monthNum = {31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
 
             if(num<1 || num>12) {
-                System.out.println("Invalid Input!");
+                System.out.println("Invalid Details!");
             }
             else {
                 System.out.println("Month " + num + " has " + monthNum[num - 1] + " many days.");
