@@ -18,7 +18,7 @@ public class NumberOfDaysInAMonth {
         cal.set(Calendar.MONTH, month);
         dayOfMonth = cal.getActualMaximum(cal.DAY_OF_MONTH);
 
-        System.out.println(dayOfMonth + " Days in  Month of " + months[month]);
+        System.out.println(months[month] +" "+ year +" has " + dayOfMonth +" days.");
         sc.close();
 
     }
