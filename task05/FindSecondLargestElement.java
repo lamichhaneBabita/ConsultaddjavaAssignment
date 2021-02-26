@@ -9,6 +9,10 @@ public class FindSecondLargestElement {
         Arrays.sort(arr);
         int temp = 0;
         int max = arr[0];
+        if(arr.length<2){
+            System.out.println("Invalid Input");
+            return;
+        }
 
         for (int i = arr.length - 2; i >= 0; i--) {
             if (arr[i] != arr[arr.length - 1]) {
