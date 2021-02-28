@@ -3,12 +3,14 @@ package task05;
 import java.util.Arrays;
 
 public class RearangeMaxMinArrayValue {
+
     public static void main(String[] args) {
         int[] arr = {2, 1, 4, 3, 6, 7, 5};
         MaxMinArray(arr);
     }
 
     public static void MaxMinArray(int[] arr) {
+
         Arrays.sort(arr);
         int[] temp = new int[arr.length];
         boolean flag = true;
@@ -24,6 +26,5 @@ public class RearangeMaxMinArrayValue {
         }
 
         System.out.println(Arrays.toString(temp));
-
     }
 }
