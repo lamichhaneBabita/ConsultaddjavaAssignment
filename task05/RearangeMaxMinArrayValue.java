@@ -2,12 +2,12 @@ package task05;
 
 import java.util.Arrays;
 
-public class MaxMinHighestSortedArrayAlternate {
+public class RearangeMaxMinArrayValue {
     public static void main(String[] args) {
         int[] arr = {2, 1, 4, 3, 6, 7, 5};
-        //    int[] temp =
+
         MaxMinArray(arr);
-        //   System.out.println(Arrays.toString(temp));
+
 
     }
 
