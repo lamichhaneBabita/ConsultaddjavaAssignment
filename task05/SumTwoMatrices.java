@@ -13,6 +13,5 @@ public class SumTwoMatrices {
             }
             System.out.println();
         }
-
     }
 }
