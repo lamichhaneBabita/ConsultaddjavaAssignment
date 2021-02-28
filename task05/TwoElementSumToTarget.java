@@ -10,11 +10,8 @@ public class TwoElementSumToTarget {
                     System.out.println("Pair found at Index "+j + " and" + " at Index "+ i + " = " + k);
                     return;
                 }
-
             }
-
         }
         System.out.println("Pair not found");
-
     }
 }
