@@ -1,6 +1,6 @@
 package task05;
 
-public class SumPairisClosestTo0 {
+public class SumPairClosestTo0 {
     public static void main(String[] args) {
         int[] arr = {1, 30, -5, 70, -8, 20, -40, 60};
         int sum1 = 0;
