@@ -5,10 +5,7 @@ import java.util.Arrays;
 public class RearangeMaxMinArrayValue {
     public static void main(String[] args) {
         int[] arr = {2, 1, 4, 3, 6, 7, 5};
-
         MaxMinArray(arr);
-
-
     }
 
     public static void MaxMinArray(int[] arr) {
