@@ -11,7 +11,7 @@ public class Programming {
     public Programming(String[] args) {
         System.out.print("I love :");
         for (String s : args) {
-            System.out.print( s + " ");
+            System.out.print(s + " ");
         }
 
     }
