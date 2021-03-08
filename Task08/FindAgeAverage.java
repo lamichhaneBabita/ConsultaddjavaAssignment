@@ -15,7 +15,7 @@ public class FindAgeAverage {
 
         double avg = bf.lines().skip(1).map(s -> s.split(",")[1])
                 .mapToDouble(Double::parseDouble).average().getAsDouble();
-        System.out.println("Avg Value is: " + avg);
+        System.out.println("Avg Value of given ages is: " + avg);
 
     }
 }
